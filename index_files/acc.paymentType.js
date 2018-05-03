@@ -1,0 +1,1 @@
+ACC.paymentType={_autoload:["bindPaymentTypeSelect","showHideCostCenterSelect"],bindPaymentTypeSelect:function(){$("input:radio[name='paymentType']").change(function(){ACC.paymentType.showHideCostCenterSelect()})},showHideCostCenterSelect:function(){"ACCOUNT"==$("input:radio[name='paymentType']:checked").val()?$("#costCenter").show():$("#costCenter").hide()}};

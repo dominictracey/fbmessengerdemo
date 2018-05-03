@@ -1,0 +1,1 @@
+ACC.futurelink={_autoload:["bindFutureStockLink"],bindFutureStockLink:function(){$(document).on("click",".futureStockLink",function(t){t.preventDefault();var i=$(this).attr("href"),n=$(this).attr("title");ACC.colorbox.open(n,{href:i,maxWidth:"100%",width:"320px",height:"320px",initialWidth:"320px"})})}};

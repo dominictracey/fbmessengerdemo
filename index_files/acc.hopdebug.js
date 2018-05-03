@@ -1,0 +1,1 @@
+ACC.hopdebug={bindAll:function(){this.bindShowDebugMode()},bindShowDebugMode:function(){$("#hopDebugMode").data("hopDebugMode")||$("#showDebugPage").val()||$("#hostedOrderPagePostForm").submit()}},$(document).ready(function(){ACC.hopdebug.bindAll()});

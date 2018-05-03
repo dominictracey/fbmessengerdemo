@@ -1,0 +1,1 @@
+window.smartedit=window.smartedit||{},window.smartedit.reprocessPage=function(){ACC.global.initImager(),ACC.global.reprocessImages(),0===$(".navigation--top .myAccountLinksHeader").length&&($(".js-myAccount-root").empty(),$(".js-secondaryNavAccount > ul").empty(),ACC.navigation.myAccountNavigation()),ACC.carousel.bindCarousel()};

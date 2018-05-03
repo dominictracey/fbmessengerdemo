@@ -1,0 +1,1 @@
+ACC.cms={loadComponent:function(n,o,s,c,t){var r=this;n&&$.ajax({url:ACC.config.contextPath+"/cms/component?componentUid="+n,cache:!1,type:"GET",success:function(e){reprocess=-1<e.indexOf("js-responsive-image"),r.insertHtml(e,s,reprocess),c&&c(e,n,o,s)},error:function(e){t&&t(e,n,o,s)}})},insertHtml:function(e,n,o){n&&($(n).html(e),o&&ACC.global.reprocessImages())}};

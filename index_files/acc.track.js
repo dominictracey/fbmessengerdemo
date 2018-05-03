@@ -1,0 +1,1 @@
+ACC.track={trackAddToCart:function(t,a,r){window.mediator.publish("trackAddToCart",{productCode:t,quantity:a,cartData:r})},trackRemoveFromCart:function(t,a){window.mediator.publish("trackRemoveFromCart",{productCode:t,initialCartQuantity:a})},trackUpdateCart:function(t,a,r){window.mediator.publish("trackUpdateCart",{productCode:t,initialCartQuantity:a,newCartQuantity:r})}};

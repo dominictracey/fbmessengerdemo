@@ -1,0 +1,1 @@
+function _autoload(){$.each(ACC,function(n,a){$.isArray(a._autoload)&&$.each(a._autoload,function(a,o){$.isArray(o)?o[1]?ACC[n][o[0]]():o[2]&&ACC[n][o[2]]():ACC[n][o]()})})}$(function(){_autoload()});
